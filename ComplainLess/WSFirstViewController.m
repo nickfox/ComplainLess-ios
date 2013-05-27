@@ -7,8 +7,12 @@
 //
 
 #import "WSFirstViewController.h"
+#import "CoolButton.h"
+#import "JDFlipNumberView.h"
 
 @interface WSFirstViewController ()
+
+@property (weak, nonatomic) IBOutlet CoolButton *coolButton;
 
 @end
 
@@ -18,8 +22,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.title = NSLocalizedString(@"Tracker", @"Tracker");
+        self.tabBarItem.image = [UIImage imageNamed:@"reminder"];
     }
     return self;
 }
@@ -27,7 +31,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    // create a new FlipNumberView, set a value, start an animation
+    JDFlipNumberView *flipNumberView = [[JDFlipNumberView alloc] initWithDigitCount:2];
+    flipNumberView.value = 17;
+    [flipNumberView animateDownWithTimeInterval: 1.0];
+    
+    // add to view hierarchy and resize
+    [self.view addSubview: flipNumberView];
+    flipNumberView.frame = CGRectMake(95,150,300,100);
+    
+
 }
 
 - (void)didReceiveMemoryWarning

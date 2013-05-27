@@ -1,0 +1,10 @@
+PODS:
+  - JDFlipNumberView (2.0.5)
+
+DEPENDENCIES:
+  - JDFlipNumberView
+
+SPEC CHECKSUMS:
+  JDFlipNumberView: a0dbb26e27e401848551c8d5e1ad289a2690b55a
+
+COCOAPODS: 0.20.2
