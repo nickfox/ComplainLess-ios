@@ -1,2 +1,1 @@
-platform :ios
 pod 'JDFlipNumberView'
