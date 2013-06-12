@@ -15,6 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *startDateLabel;
 @property (weak, nonatomic) IBOutlet CoolButton *coolButton;
+@property (weak, nonatomic) IBOutlet UILabel *personalBestLabel;
 
 @end
 
@@ -41,43 +42,45 @@
     {        
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"isNotFirstLaunch"];
         [[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:@"startDate"];
-        [[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:@"currentDate"];
+        [[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:@"currentBestDate"];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyy-MM-dd"];
-    NSDate *startDate1 = [dateFormatter dateFromString: @"2013-06-03"];
-    NSDate *endDate = [dateFormatter dateFromString: @"2013-06-05"];
-    NSInteger difference = [startDate1 numberOfDaysUntil:endDate];
-    
-    NSLog(@"startDate: %@", [dateFormatter stringFromDate:startDate1]);
-    NSLog(@"endDate: %@", [dateFormatter stringFromDate:endDate]);
-    NSLog(@"numberOfDays: %d", difference);
-    
     [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
     
+    //NSDate *startDate1 = [dateFormatter dateFromString: @"2013-06-03"];
+    //NSDate *endDate = [dateFormatter dateFromString: @"2013-06-05"];
+    //NSInteger numberOfDaysCompleted = [startDate1 numberOfDaysUntil:endDate];
+        
     NSDate *startDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"startDate"];
     self.startDateLabel.text =  [NSString stringWithFormat:@"Start Date: %@", [dateFormatter stringFromDate:startDate]];
    
-
     flipNumberView = [[JDFlipNumberView alloc] initWithDigitCount:2];
-    flipNumberView.value = 1;
-
-    [self.view addSubview: flipNumberView];
     flipNumberView.frame = CGRectMake(95,175,300,100);
+    [self.view addSubview: flipNumberView];
 }
 
 - (IBAction)startOverTapped:(id)sender
 {
-    [[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:@"currentDate"];
+    [[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:@"currentBestDate"];
     [[NSUserDefaults standardUserDefaults] synchronize];
-    flipNumberView.value = 1;
+    flipNumberView.value = 0;
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    NSDate *todaysDate = [NSDate date];
+    NSDate *currentBestDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"currentBestDate"];
+    NSInteger numberOfDaysCompleted = [currentBestDate numberOfDaysUntil:todaysDate];
+    flipNumberView.value = numberOfDaysCompleted;
     
+    if (numberOfDaysCompleted == 1) {
+        self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Day", numberOfDaysCompleted];
+    } else {
+        self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Days", numberOfDaysCompleted];
+    }
 }
 
 - (void)didReceiveMemoryWarning

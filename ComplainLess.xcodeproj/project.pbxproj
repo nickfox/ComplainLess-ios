@@ -121,10 +121,10 @@
 				887CDC8A1752EF0A005432B8 /* WSSecondViewController.m */,
 				887CDC901752EF0A005432B8 /* WSFirstViewController.xib */,
 				887CDC931752EF0A005432B8 /* WSSecondViewController.xib */,
-				887CDCA317530588005432B8 /* Button */,
-				887CDC711752EF0A005432B8 /* Supporting Files */,
 				885D1B6A17629A39002A9D82 /* NSDate+Utilities.h */,
 				885D1B6B17629A39002A9D82 /* NSDate+Utilities.m */,
+				887CDCA317530588005432B8 /* Button */,
+				887CDC711752EF0A005432B8 /* Supporting Files */,
 			);
 			path = ComplainLess;
 			sourceTree = "<group>";
