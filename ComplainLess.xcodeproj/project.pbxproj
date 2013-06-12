@@ -29,6 +29,9 @@
 		887CDCB017532D8D005432B8 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 887CDCAD17532D8D005432B8 /* Common.m */; };
 		887CDCB117532D8D005432B8 /* CoolButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 887CDCAF17532D8D005432B8 /* CoolButton.m */; };
 		88BCD7401762EA63003F12AA /* wagmore-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BCD73F1762EA63003F12AA /* wagmore-blue.png */; };
+		88BCD75217688813003F12AA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BCD75117688812003F12AA /* Icon.png */; };
+		88BCD7541768881A003F12AA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BCD7531768881A003F12AA /* Icon@2x.png */; };
+		88BCD75617688DFC003F12AA /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 88BCD75517688DFC003F12AA /* iTunesArtwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +66,9 @@
 		887CDCAE17532D8D005432B8 /* CoolButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolButton.h; sourceTree = "<group>"; };
 		887CDCAF17532D8D005432B8 /* CoolButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolButton.m; sourceTree = "<group>"; };
 		88BCD73F1762EA63003F12AA /* wagmore-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wagmore-blue.png"; sourceTree = "<group>"; };
+		88BCD75117688812003F12AA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		88BCD7531768881A003F12AA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		88BCD75517688DFC003F12AA /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		D3C38AE34748413A8857EFBC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,11 +138,14 @@
 		887CDC711752EF0A005432B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88BCD75517688DFC003F12AA /* iTunesArtwork */,
 				88BCD73F1762EA63003F12AA /* wagmore-blue.png */,
 				887CDC721752EF0A005432B8 /* ComplainLess-Info.plist */,
 				887CDC731752EF0A005432B8 /* InfoPlist.strings */,
 				887CDC761752EF0A005432B8 /* main.m */,
 				887CDC781752EF0A005432B8 /* ComplainLess-Prefix.pch */,
+				88BCD75117688812003F12AA /* Icon.png */,
+				88BCD7531768881A003F12AA /* Icon@2x.png */,
 				887CDC9B1752F974005432B8 /* info.png */,
 				887CDC9C1752F974005432B8 /* info@2x.png */,
 				887CDC9D1752F974005432B8 /* reminder.png */,
@@ -224,6 +233,9 @@
 				887CDCA11752F974005432B8 /* reminder.png in Resources */,
 				887CDCA21752F974005432B8 /* reminder@2x.png in Resources */,
 				88BCD7401762EA63003F12AA /* wagmore-blue.png in Resources */,
+				88BCD75217688813003F12AA /* Icon.png in Resources */,
+				88BCD7541768881A003F12AA /* Icon@2x.png in Resources */,
+				88BCD75617688DFC003F12AA /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
