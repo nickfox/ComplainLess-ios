@@ -44,6 +44,7 @@
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"isNotFirstLaunch"];
         [[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:@"startDate"];
         [[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:@"currentBestDate"];
+        [[NSUserDefaults standardUserDefaults] setInteger:0 forKey:@"personalBest"];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
     
@@ -87,6 +88,13 @@
     NSDate *todaysDate = [NSDate date];
     NSDate *currentBestDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"currentBestDate"];
     NSInteger numberOfDaysCompleted = [currentBestDate numberOfDaysUntil:todaysDate];
+    NSInteger personalBest = [[NSUserDefaults standardUserDefaults] integerForKey:@"personalBest"];
+    
+    if (numberOfDaysCompleted > personalBest) {
+        [[NSUserDefaults standardUserDefaults] setInteger:numberOfDaysCompleted forKey:@"personalBest"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    
     flipNumberView.value = numberOfDaysCompleted;
     
     if (numberOfDaysCompleted == 1) {
