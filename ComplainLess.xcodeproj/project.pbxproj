@@ -28,6 +28,7 @@
 		887CDCA21752F974005432B8 /* reminder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 887CDC9E1752F974005432B8 /* reminder@2x.png */; };
 		887CDCB017532D8D005432B8 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 887CDCAD17532D8D005432B8 /* Common.m */; };
 		887CDCB117532D8D005432B8 /* CoolButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 887CDCAF17532D8D005432B8 /* CoolButton.m */; };
+		8887A7DA17695F38007BD163 /* SlidingMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A7D917695F38007BD163 /* SlidingMessageView.m */; };
 		88BCD7401762EA63003F12AA /* wagmore-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BCD73F1762EA63003F12AA /* wagmore-blue.png */; };
 		88BCD75217688813003F12AA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BCD75117688812003F12AA /* Icon.png */; };
 		88BCD7541768881A003F12AA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BCD7531768881A003F12AA /* Icon@2x.png */; };
@@ -65,6 +66,8 @@
 		887CDCAD17532D8D005432B8 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		887CDCAE17532D8D005432B8 /* CoolButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolButton.h; sourceTree = "<group>"; };
 		887CDCAF17532D8D005432B8 /* CoolButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolButton.m; sourceTree = "<group>"; };
+		8887A7D817695F38007BD163 /* SlidingMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingMessageView.h; sourceTree = "<group>"; };
+		8887A7D917695F38007BD163 /* SlidingMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingMessageView.m; sourceTree = "<group>"; };
 		88BCD73F1762EA63003F12AA /* wagmore-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wagmore-blue.png"; sourceTree = "<group>"; };
 		88BCD75117688812003F12AA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		88BCD7531768881A003F12AA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
@@ -129,6 +132,8 @@
 				887CDC931752EF0A005432B8 /* WSSecondViewController.xib */,
 				885D1B6A17629A39002A9D82 /* NSDate+Utilities.h */,
 				885D1B6B17629A39002A9D82 /* NSDate+Utilities.m */,
+				8887A7D817695F38007BD163 /* SlidingMessageView.h */,
+				8887A7D917695F38007BD163 /* SlidingMessageView.m */,
 				887CDCA317530588005432B8 /* Button */,
 				887CDC711752EF0A005432B8 /* Supporting Files */,
 			);
@@ -284,6 +289,7 @@
 				887CDCB017532D8D005432B8 /* Common.m in Sources */,
 				887CDCB117532D8D005432B8 /* CoolButton.m in Sources */,
 				885D1B6C17629A39002A9D82 /* NSDate+Utilities.m in Sources */,
+				8887A7DA17695F38007BD163 /* SlidingMessageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +335,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -363,8 +369,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -383,8 +389,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C99DAD9C40C42CFA3D06F21 /* Pods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ComplainLess/ComplainLess-Prefix.pch";
 				INFOPLIST_FILE = "ComplainLess/ComplainLess-Info.plist";
@@ -399,8 +405,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C99DAD9C40C42CFA3D06F21 /* Pods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ComplainLess/ComplainLess-Prefix.pch";
 				INFOPLIST_FILE = "ComplainLess/ComplainLess-Info.plist";

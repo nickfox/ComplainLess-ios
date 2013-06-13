@@ -10,6 +10,7 @@
 #import "CoolButton.h"
 #import "JDFlipNumberView.h"
 #import "NSDate+Utilities.h"
+#import "SlidingMessageView.h"
 
 @interface WSFirstViewController ()
 
@@ -67,6 +68,18 @@
     [[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:@"currentBestDate"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     flipNumberView.value = 0;
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd"];
+    [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+    [dateFormatter setTimeStyle:NSDateFormatterShortStyle];
+    
+    SlidingMessageView *msgView = [[SlidingMessageView alloc] initWithFrame:CGRectMake(0, -60.0, self.view.bounds.size.width, 60.0)];
+    [msgView setTitle:@"Alert"];
+    [msgView setMessage:[NSString stringWithFormat:@"Start time reset to %@", [dateFormatter stringFromDate:[NSDate date]]]];
+    
+    [self.view addSubview:msgView];
+    [msgView showMessageWithDelay:4];
 }
 
 - (void)viewWillAppear:(BOOL)animated
