@@ -22,6 +22,7 @@
 
 @implementation WSFirstViewController {
     JDFlipNumberView *flipNumberView;
+    BOOL viewDidLoadCalled;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -37,6 +38,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+     NSLog(@"viewDidLoad");
     
     BOOL isFirstLaunch = ![[NSUserDefaults standardUserDefaults] boolForKey:@"isNotFirstLaunch"];
     if (isFirstLaunch)
@@ -62,6 +65,35 @@
     flipNumberView = [[JDFlipNumberView alloc] initWithDigitCount:2];
     flipNumberView.frame = CGRectMake(95,175,300,100);
     [self.view addSubview: flipNumberView];
+    
+    viewDidLoadCalled = TRUE;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(updateUI)
+                                                 name:UIApplicationDidBecomeActiveNotification object:nil];
+}
+
+- (void) updateUI {
+    NSLog(@"updateUI");
+    
+    NSDate *todaysDate = [NSDate date];
+    NSDate *currentBestDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"currentBestDate"];
+    NSInteger numberOfDaysCompleted = [currentBestDate numberOfDaysUntil:todaysDate];
+    NSInteger personalBest = [[NSUserDefaults standardUserDefaults] integerForKey:@"personalBest"];
+    
+    if (numberOfDaysCompleted > personalBest) {
+        [[NSUserDefaults standardUserDefaults] setInteger:numberOfDaysCompleted forKey:@"personalBest"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    
+    flipNumberView.value = numberOfDaysCompleted;
+    
+    if (numberOfDaysCompleted == 1) {
+        self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Day", numberOfDaysCompleted];
+    } else {
+        self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Days", numberOfDaysCompleted];
+    }
+    
 }
 
 - (IBAction)startOverTapped:(id)sender
@@ -85,22 +117,16 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    NSDate *todaysDate = [NSDate date];
-    NSDate *currentBestDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"currentBestDate"];
-    NSInteger numberOfDaysCompleted = [currentBestDate numberOfDaysUntil:todaysDate];
-    NSInteger personalBest = [[NSUserDefaults standardUserDefaults] integerForKey:@"personalBest"];
+    [super viewWillAppear:animated];
     
-    if (numberOfDaysCompleted > personalBest) {
-        [[NSUserDefaults standardUserDefaults] setInteger:numberOfDaysCompleted forKey:@"personalBest"];
-        [[NSUserDefaults standardUserDefaults] synchronize];
-    }
+    NSLog(@"viewWillAppear");
+    NSLog(viewDidLoadCalled ? @"viewDidLoadCalled: Yes" : @"viewDidLoadCalled: No");
     
-    flipNumberView.value = numberOfDaysCompleted;
-    
-    if (numberOfDaysCompleted == 1) {
-        self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Day", numberOfDaysCompleted];
+    // so updateUI not called twice when viewDidLoadCalled is called 
+    if (viewDidLoadCalled) {
+        viewDidLoadCalled = NO;
     } else {
-        self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Days", numberOfDaysCompleted];
+        [self updateUI];
     }
 }
 
