@@ -84,15 +84,21 @@
     if (numberOfDaysCompleted > personalBest) {
         [[NSUserDefaults standardUserDefaults] setInteger:numberOfDaysCompleted forKey:@"personalBest"];
         [[NSUserDefaults standardUserDefaults] synchronize];
-    }
-    
-    flipNumberView.value = numberOfDaysCompleted;
-    
-    if (numberOfDaysCompleted == 1) {
-        self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Day", numberOfDaysCompleted];
+
+        if (numberOfDaysCompleted == 1) {
+            self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Day", numberOfDaysCompleted];
+        } else {
+            self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Days", numberOfDaysCompleted];
+        }
     } else {
-        self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Days", numberOfDaysCompleted];
+        if (numberOfDaysCompleted == 1) {
+            self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Day", personalBest];
+        } else {
+            self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Days", personalBest];
+        }
     }
+    
+    flipNumberView.value = personalBest;    
     
 }
 
