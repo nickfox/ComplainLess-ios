@@ -81,6 +81,9 @@
     NSInteger numberOfDaysCompleted = [currentBestDate numberOfDaysUntil:todaysDate];
     NSInteger personalBest = [[NSUserDefaults standardUserDefaults] integerForKey:@"personalBest"];
     
+    NSLog(@"numberOfDaysCompleted: %d", numberOfDaysCompleted);
+    NSLog(@"personalBest: %d", personalBest);
+
     if (numberOfDaysCompleted > personalBest) {
         [[NSUserDefaults standardUserDefaults] setInteger:numberOfDaysCompleted forKey:@"personalBest"];
         [[NSUserDefaults standardUserDefaults] synchronize];
@@ -97,9 +100,8 @@
             self.personalBestLabel.text =  [NSString stringWithFormat:@"Personal Best: %d Days", personalBest];
         }
     }
-    
-    flipNumberView.value = personalBest;    
-    
+   
+    flipNumberView.value = numberOfDaysCompleted;
 }
 
 - (IBAction)startOverTapped:(id)sender
