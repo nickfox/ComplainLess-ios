@@ -39,8 +39,6 @@
 {
     [super viewDidLoad];
     
-     NSLog(@"viewDidLoad");
-    
     BOOL isFirstLaunch = ![[NSUserDefaults standardUserDefaults] boolForKey:@"isNotFirstLaunch"];
     if (isFirstLaunch)
     {        
@@ -74,15 +72,14 @@
 }
 
 - (void) updateUI {
-    NSLog(@"updateUI");
     
     NSDate *todaysDate = [NSDate date];
     NSDate *currentBestDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"currentBestDate"];
     NSInteger numberOfDaysCompleted = [currentBestDate numberOfDaysUntil:todaysDate];
     NSInteger personalBest = [[NSUserDefaults standardUserDefaults] integerForKey:@"personalBest"];
     
-    NSLog(@"numberOfDaysCompleted: %d", numberOfDaysCompleted);
-    NSLog(@"personalBest: %d", personalBest);
+    //NSLog(@"numberOfDaysCompleted: %d", numberOfDaysCompleted);
+    //NSLog(@"personalBest: %d", personalBest);
 
     if (numberOfDaysCompleted > personalBest) {
         [[NSUserDefaults standardUserDefaults] setInteger:numberOfDaysCompleted forKey:@"personalBest"];
@@ -126,9 +123,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
-    NSLog(@"viewWillAppear");
-    NSLog(viewDidLoadCalled ? @"viewDidLoadCalled: Yes" : @"viewDidLoadCalled: No");
+
+    //NSLog(viewDidLoadCalled ? @"viewDidLoadCalled: Yes" : @"viewDidLoadCalled: No");
     
     // so updateUI not called twice when viewDidLoadCalled is called 
     if (viewDidLoadCalled) {
