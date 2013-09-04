@@ -101,6 +101,15 @@
     flipNumberView.value = numberOfDaysCompleted;
 }
 
+
+- (IBAction)inspireMeTapped:(id)sender {
+    NSLog(@"%@", [self getQuotes]);
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:[self getQuotes] delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+    [alert show];
+}
+
+
 - (IBAction)startOverTapped:(id)sender
 {
     [[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:@"currentBestDate"];
@@ -132,6 +141,32 @@
     } else {
         [self updateUI];
     }
+}
+
+- (NSString *) getQuotes {
+    NSString *errorDesc = nil;
+    NSPropertyListFormat format;
+    NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"quotes" ofType:@"plist"];
+
+    NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:plistPath];
+    NSDictionary *quotesDictionary = (NSDictionary *)[NSPropertyListSerialization
+                                          propertyListFromData:plistXML
+                                          mutabilityOption:NSPropertyListMutableContainersAndLeaves
+                                          format:&format
+                                          errorDescription:&errorDesc];
+
+    NSArray *quotes = [quotesDictionary objectForKey:@"Root"];
+    
+    if (!quotes) {
+        NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
+    }
+    
+    int index = arc4random() % [quotes count];
+    return [quotes objectAtIndex:index];
+}
+
+- (void)dealloc {
+    
 }
 
 - (void)didReceiveMemoryWarning
