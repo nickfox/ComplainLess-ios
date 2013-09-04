@@ -161,7 +161,15 @@
         NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
     }
     
-    int index = arc4random() % [quotes count];
+
+    int count = [quotes count];
+    
+    if (count == 0) {
+        count = 1;
+    }
+    
+    int index = arc4random() % count;
+
     return [quotes objectAtIndex:index];
 }
 
