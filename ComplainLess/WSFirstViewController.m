@@ -99,6 +99,8 @@
     }
    
     flipNumberView.value = numberOfDaysCompleted;
+    //flipNumberView.value = 1;
+    //self.personalBestLabel.text = @"Personal Best: 7 Days";
 }
 
 
