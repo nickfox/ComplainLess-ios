@@ -163,7 +163,6 @@
         NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
     }
     
-
     int count = [quotes count];
     
     if (count == 0) {
