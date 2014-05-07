@@ -108,7 +108,7 @@ static JDFlipNumberViewImageFactory *sharedInstance;
 	NSMutableArray* bottomImages = [NSMutableArray arrayWithCapacity:10];
 	
 	// create bottom and top images
-    for (NSInteger j=0; j<10; j++) {
+    for (int j=0; j<10; j++) {
         for (int i=0; i<2; i++) {
             NSString *imageName = [NSString stringWithFormat: @"%d.png", j];
             NSString *bundleImageName = [NSString stringWithFormat: @"%@.bundle/%@", bundleName, imageName];

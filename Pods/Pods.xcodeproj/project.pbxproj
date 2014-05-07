@@ -1,813 +1,323 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>015E14DF0E7B45E1A3459FD6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JDDateCountdownFlipView.m</string>
-			<key>path</key>
-			<string>JDFlipNumberView/JDFlipNumberView/JDDateCountdownFlipView.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>02D7A705AC9B4863A0A90CEE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>26D24B4A8D0746B29392682A</string>
-				<string>CB36ECC6A303484E9DADE410</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>11BC9DE9E7C946BB9DB809F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-resources.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>18E75CF8D3CE4B2B9CDF493E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EAA27ADAE20E4D7B8206CCC2</string>
-				<string>A02688A816F0450997BF0303</string>
-				<string>9D7A55232F96492ABEC9227B</string>
-				<string>8FC430AE06134E19BBACB9EE</string>
-				<string>697D9E89C0874E41972F0110</string>
-				<string>21C079487F2F470CA5A6966A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21C079487F2F470CA5A6966A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>26D24B4A8D0746B29392682A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2C92C7EFBB334EB19D614507</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JDFlipNumberDigitView.h</string>
-			<key>path</key>
-			<string>JDFlipNumberView/JDFlipNumberView/JDFlipNumberDigitView.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2CE80EA0388A4F0680505A89</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6695CF08E3204019BE0AF6B6</string>
-				<string>015E14DF0E7B45E1A3459FD6</string>
-				<string>2C92C7EFBB334EB19D614507</string>
-				<string>918141922F8E45A0AE37AA6C</string>
-				<string>57B007323B1C4249B6DB65F5</string>
-				<string>BD1671AE019142C89328B6C5</string>
-				<string>E1F10D04351349009DC666F8</string>
-				<string>6A1D9C5B34D64DEAA419DD3E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JDFlipNumberView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F6918A0EECE427B8D08E2FA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>57B007323B1C4249B6DB65F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>39CF85C6A5CF460CB2AED8A4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-environment.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3C6C3CF5D5884C9D8FF39283</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9346CF9332743EE8276A724</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JDFlipNumberView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>40A565E1A3A843FAAF5A77B6</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4324BB5ECB6C4EBABBC336ED</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D5684975F52A41A2BBE07BD6</string>
-				<string>7DAFDA96F95940DE8559036A</string>
-				<string>CF9700D427094D3B8DC0FFBF</string>
-				<string>9119A021722A4119A4F9ABC0</string>
-				<string>CE4610A7858246DE9E49C1FB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4CB86C35AB1D4178A3C62BE7</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>02D7A705AC9B4863A0A90CEE</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>18E75CF8D3CE4B2B9CDF493E</string>
-			<key>productRefGroup</key>
-			<string>9D7A55232F96492ABEC9227B</string>
-			<key>projectReferences</key>
-			<array/>
-			<key>targets</key>
-			<array>
-				<string>BE4103AFB9C248A0A9FAC0E2</string>
-			</array>
-		</dict>
-		<key>5288B64E0D6E48ACAE51A86D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>52C6CA99CD1649CFB52941D4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6695CF08E3204019BE0AF6B6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>57B007323B1C4249B6DB65F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JDFlipNumberView.h</string>
-			<key>path</key>
-			<string>JDFlipNumberView/JDFlipNumberView/JDFlipNumberView.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>584E98234D7B4B379902BCD3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>52C6CA99CD1649CFB52941D4</string>
-				<string>E83B868A890C404D8EEFBC7F</string>
-				<string>2F6918A0EECE427B8D08E2FA</string>
-				<string>C13CB79F7B524085B2551D0A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5DFDC6683B8A47BCAACA3E99</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6695CF08E3204019BE0AF6B6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JDDateCountdownFlipView.h</string>
-			<key>path</key>
-			<string>JDFlipNumberView/JDFlipNumberView/JDDateCountdownFlipView.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>67D4DA95CF1D4AA59E866B27</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A5B61D0FCE2C4E1D81ABDD25</string>
-				<string>CE9735A9808A4A8089A3C276</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6967D4924ABF4ADCB89B43EC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9F8ED020AA954AFA85B8F7F8</string>
-				<string>39CF85C6A5CF460CB2AED8A4</string>
-				<string>E0E83F2A9A714340995BD9B0</string>
-				<string>11BC9DE9E7C946BB9DB809F1</string>
-				<string>5288B64E0D6E48ACAE51A86D</string>
-				<string>5DFDC6683B8A47BCAACA3E99</string>
-				<string>FA78B31A27CB4025A30D41F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>697D9E89C0874E41972F0110</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6967D4924ABF4ADCB89B43EC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A1D9C5B34D64DEAA419DD3E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JDFlipNumberViewImageFactory.m</string>
-			<key>path</key>
-			<string>JDFlipNumberView/JDFlipNumberView/JDFlipNumberViewImageFactory.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6D46F7D2333C472D9378BCAA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>740AF61D93C945618B67E2A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>7DAFDA96F95940DE8559036A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>918141922F8E45A0AE37AA6C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>8FC430AE06134E19BBACB9EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3C6C3CF5D5884C9D8FF39283</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9119A021722A4119A4F9ABC0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6A1D9C5B34D64DEAA419DD3E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>918141922F8E45A0AE37AA6C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JDFlipNumberDigitView.m</string>
-			<key>path</key>
-			<string>JDFlipNumberView/JDFlipNumberView/JDFlipNumberDigitView.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9C709B0FE6D649F2A9E14A17</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EC436C9E4BA5405C8ACAB9AC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9D7A55232F96492ABEC9227B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>40A565E1A3A843FAAF5A77B6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F8ED020AA954AFA85B8F7F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A02688A816F0450997BF0303</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2CE80EA0388A4F0680505A89</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A5B61D0FCE2C4E1D81ABDD25</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9F8ED020AA954AFA85B8F7F8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PODS_HEADERS_SEARCH_PATHS</key>
-				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
-				<key>PODS_ROOT</key>
-				<string>${SRCROOT}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BD1671AE019142C89328B6C5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JDFlipNumberView.m</string>
-			<key>path</key>
-			<string>JDFlipNumberView/JDFlipNumberView/JDFlipNumberView.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BE4103AFB9C248A0A9FAC0E2</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>67D4DA95CF1D4AA59E866B27</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4324BB5ECB6C4EBABBC336ED</string>
-				<string>9C709B0FE6D649F2A9E14A17</string>
-				<string>584E98234D7B4B379902BCD3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>40A565E1A3A843FAAF5A77B6</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>C13CB79F7B524085B2551D0A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E1F10D04351349009DC666F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>CB36ECC6A303484E9DADE410</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>CE4610A7858246DE9E49C1FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA78B31A27CB4025A30D41F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>CE9735A9808A4A8089A3C276</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9F8ED020AA954AFA85B8F7F8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PODS_HEADERS_SEARCH_PATHS</key>
-				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
-				<key>PODS_ROOT</key>
-				<string>${SRCROOT}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>CF9700D427094D3B8DC0FFBF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BD1671AE019142C89328B6C5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>D5684975F52A41A2BBE07BD6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>015E14DF0E7B45E1A3459FD6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>D9346CF9332743EE8276A724</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>JDFlipNumberView.bundle</string>
-			<key>path</key>
-			<string>JDFlipNumberView/JDFlipNumberView/JDFlipNumberView.bundle</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E0E83F2A9A714340995BD9B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-prefix.pch</string>
-			<key>path</key>
-			<string>Pods-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E1F10D04351349009DC666F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JDFlipNumberViewImageFactory.h</string>
-			<key>path</key>
-			<string>JDFlipNumberView/JDFlipNumberView/JDFlipNumberViewImageFactory.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E83B868A890C404D8EEFBC7F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2C92C7EFBB334EB19D614507</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>EAA27ADAE20E4D7B8206CCC2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6D46F7D2333C472D9378BCAA</string>
-				<string>740AF61D93C945618B67E2A2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC436C9E4BA5405C8ACAB9AC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D46F7D2333C472D9378BCAA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>FA78B31A27CB4025A30D41F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-dummy.m</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>4CB86C35AB1D4178A3C62BE7</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F6918A0EECE427B8D08E2FA /* JDFlipNumberView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B007323B1C4249B6DB65F5 /* JDFlipNumberView.h */; };
+		52C6CA99CD1649CFB52941D4 /* JDDateCountdownFlipView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6695CF08E3204019BE0AF6B6 /* JDDateCountdownFlipView.h */; };
+		7DAFDA96F95940DE8559036A /* JDFlipNumberDigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 918141922F8E45A0AE37AA6C /* JDFlipNumberDigitView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9119A021722A4119A4F9ABC0 /* JDFlipNumberViewImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1D9C5B34D64DEAA419DD3E /* JDFlipNumberViewImageFactory.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C13CB79F7B524085B2551D0A /* JDFlipNumberViewImageFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F10D04351349009DC666F8 /* JDFlipNumberViewImageFactory.h */; };
+		CE4610A7858246DE9E49C1FB /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78B31A27CB4025A30D41F5 /* Pods-dummy.m */; };
+		CF9700D427094D3B8DC0FFBF /* JDFlipNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1671AE019142C89328B6C5 /* JDFlipNumberView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D5684975F52A41A2BBE07BD6 /* JDDateCountdownFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 015E14DF0E7B45E1A3459FD6 /* JDDateCountdownFlipView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E83B868A890C404D8EEFBC7F /* JDFlipNumberDigitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C92C7EFBB334EB19D614507 /* JDFlipNumberDigitView.h */; };
+		EC436C9E4BA5405C8ACAB9AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D46F7D2333C472D9378BCAA /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015E14DF0E7B45E1A3459FD6 /* JDDateCountdownFlipView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDDateCountdownFlipView.m; path = JDFlipNumberView/JDFlipNumberView/JDDateCountdownFlipView.m; sourceTree = SOURCE_ROOT; };
+		11BC9DE9E7C946BB9DB809F1 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		21C079487F2F470CA5A6966A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C92C7EFBB334EB19D614507 /* JDFlipNumberDigitView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDFlipNumberDigitView.h; path = JDFlipNumberView/JDFlipNumberView/JDFlipNumberDigitView.h; sourceTree = SOURCE_ROOT; };
+		39CF85C6A5CF460CB2AED8A4 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = SOURCE_ROOT; };
+		40A565E1A3A843FAAF5A77B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5288B64E0D6E48ACAE51A86D /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+		57B007323B1C4249B6DB65F5 /* JDFlipNumberView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDFlipNumberView.h; path = JDFlipNumberView/JDFlipNumberView/JDFlipNumberView.h; sourceTree = SOURCE_ROOT; };
+		5DFDC6683B8A47BCAACA3E99 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = SOURCE_ROOT; };
+		6695CF08E3204019BE0AF6B6 /* JDDateCountdownFlipView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDDateCountdownFlipView.h; path = JDFlipNumberView/JDFlipNumberView/JDDateCountdownFlipView.h; sourceTree = SOURCE_ROOT; };
+		6A1D9C5B34D64DEAA419DD3E /* JDFlipNumberViewImageFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDFlipNumberViewImageFactory.m; path = JDFlipNumberView/JDFlipNumberView/JDFlipNumberViewImageFactory.m; sourceTree = SOURCE_ROOT; };
+		6D46F7D2333C472D9378BCAA /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		740AF61D93C945618B67E2A2 /* QuartzCore.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		918141922F8E45A0AE37AA6C /* JDFlipNumberDigitView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDFlipNumberDigitView.m; path = JDFlipNumberView/JDFlipNumberView/JDFlipNumberDigitView.m; sourceTree = SOURCE_ROOT; };
+		9F8ED020AA954AFA85B8F7F8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		BD1671AE019142C89328B6C5 /* JDFlipNumberView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDFlipNumberView.m; path = JDFlipNumberView/JDFlipNumberView/JDFlipNumberView.m; sourceTree = SOURCE_ROOT; };
+		D9346CF9332743EE8276A724 /* JDFlipNumberView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JDFlipNumberView.bundle; path = JDFlipNumberView/JDFlipNumberView/JDFlipNumberView.bundle; sourceTree = SOURCE_ROOT; };
+		E0E83F2A9A714340995BD9B0 /* Pods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		E1F10D04351349009DC666F8 /* JDFlipNumberViewImageFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDFlipNumberViewImageFactory.h; path = JDFlipNumberView/JDFlipNumberView/JDFlipNumberViewImageFactory.h; sourceTree = SOURCE_ROOT; };
+		FA78B31A27CB4025A30D41F5 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C709B0FE6D649F2A9E14A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC436C9E4BA5405C8ACAB9AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E75CF8D3CE4B2B9CDF493E = {
+			isa = PBXGroup;
+			children = (
+				EAA27ADAE20E4D7B8206CCC2 /* Frameworks */,
+				A02688A816F0450997BF0303 /* Pods */,
+				9D7A55232F96492ABEC9227B /* Products */,
+				8FC430AE06134E19BBACB9EE /* Resources */,
+				697D9E89C0874E41972F0110 /* Targets Support Files */,
+				21C079487F2F470CA5A6966A /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE80EA0388A4F0680505A89 /* JDFlipNumberView */ = {
+			isa = PBXGroup;
+			children = (
+				6695CF08E3204019BE0AF6B6 /* JDDateCountdownFlipView.h */,
+				015E14DF0E7B45E1A3459FD6 /* JDDateCountdownFlipView.m */,
+				2C92C7EFBB334EB19D614507 /* JDFlipNumberDigitView.h */,
+				918141922F8E45A0AE37AA6C /* JDFlipNumberDigitView.m */,
+				57B007323B1C4249B6DB65F5 /* JDFlipNumberView.h */,
+				BD1671AE019142C89328B6C5 /* JDFlipNumberView.m */,
+				E1F10D04351349009DC666F8 /* JDFlipNumberViewImageFactory.h */,
+				6A1D9C5B34D64DEAA419DD3E /* JDFlipNumberViewImageFactory.m */,
+			);
+			name = JDFlipNumberView;
+			sourceTree = "<group>";
+		};
+		3C6C3CF5D5884C9D8FF39283 /* JDFlipNumberView */ = {
+			isa = PBXGroup;
+			children = (
+				D9346CF9332743EE8276A724 /* JDFlipNumberView.bundle */,
+			);
+			name = JDFlipNumberView;
+			sourceTree = "<group>";
+		};
+		6967D4924ABF4ADCB89B43EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F8ED020AA954AFA85B8F7F8 /* Pods.xcconfig */,
+				39CF85C6A5CF460CB2AED8A4 /* Pods-environment.h */,
+				E0E83F2A9A714340995BD9B0 /* Pods-prefix.pch */,
+				11BC9DE9E7C946BB9DB809F1 /* Pods-resources.sh */,
+				5288B64E0D6E48ACAE51A86D /* Pods-acknowledgements.plist */,
+				5DFDC6683B8A47BCAACA3E99 /* Pods-acknowledgements.markdown */,
+				FA78B31A27CB4025A30D41F5 /* Pods-dummy.m */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		697D9E89C0874E41972F0110 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6967D4924ABF4ADCB89B43EC /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8FC430AE06134E19BBACB9EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C6C3CF5D5884C9D8FF39283 /* JDFlipNumberView */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9D7A55232F96492ABEC9227B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A565E1A3A843FAAF5A77B6 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A02688A816F0450997BF0303 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CE80EA0388A4F0680505A89 /* JDFlipNumberView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAA27ADAE20E4D7B8206CCC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D46F7D2333C472D9378BCAA /* Foundation.framework */,
+				740AF61D93C945618B67E2A2 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		584E98234D7B4B379902BCD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6CA99CD1649CFB52941D4 /* JDDateCountdownFlipView.h in Headers */,
+				E83B868A890C404D8EEFBC7F /* JDFlipNumberDigitView.h in Headers */,
+				2F6918A0EECE427B8D08E2FA /* JDFlipNumberView.h in Headers */,
+				C13CB79F7B524085B2551D0A /* JDFlipNumberViewImageFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BE4103AFB9C248A0A9FAC0E2 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D4DA95CF1D4AA59E866B27 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				4324BB5ECB6C4EBABBC336ED /* Sources */,
+				9C709B0FE6D649F2A9E14A17 /* Frameworks */,
+				584E98234D7B4B379902BCD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 40A565E1A3A843FAAF5A77B6 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB86C35AB1D4178A3C62BE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 02D7A705AC9B4863A0A90CEE /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18E75CF8D3CE4B2B9CDF493E;
+			productRefGroup = 9D7A55232F96492ABEC9227B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE4103AFB9C248A0A9FAC0E2 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4324BB5ECB6C4EBABBC336ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5684975F52A41A2BBE07BD6 /* JDDateCountdownFlipView.m in Sources */,
+				7DAFDA96F95940DE8559036A /* JDFlipNumberDigitView.m in Sources */,
+				CF9700D427094D3B8DC0FFBF /* JDFlipNumberView.m in Sources */,
+				9119A021722A4119A4F9ABC0 /* JDFlipNumberViewImageFactory.m in Sources */,
+				CE4610A7858246DE9E49C1FB /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26D24B4A8D0746B29392682A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		A5B61D0FCE2C4E1D81ABDD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8ED020AA954AFA85B8F7F8 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB36ECC6A303484E9DADE410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		CE9735A9808A4A8089A3C276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8ED020AA954AFA85B8F7F8 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D7A705AC9B4863A0A90CEE /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D24B4A8D0746B29392682A /* Release */,
+				CB36ECC6A303484E9DADE410 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D4DA95CF1D4AA59E866B27 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B61D0FCE2C4E1D81ABDD25 /* Release */,
+				CE9735A9808A4A8089A3C276 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB86C35AB1D4178A3C62BE7 /* Project object */;
+}

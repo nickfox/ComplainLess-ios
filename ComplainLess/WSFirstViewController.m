@@ -75,8 +75,8 @@
     
     NSDate *todaysDate = [NSDate date];
     NSDate *currentBestDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"currentBestDate"];
-    NSInteger numberOfDaysCompleted = [currentBestDate numberOfDaysUntil:todaysDate];
-    NSInteger personalBest = [[NSUserDefaults standardUserDefaults] integerForKey:@"personalBest"];
+    int numberOfDaysCompleted = (int)[currentBestDate numberOfDaysUntil:todaysDate];
+    int personalBest = (int)[[NSUserDefaults standardUserDefaults] integerForKey:@"personalBest"];
     
     //NSLog(@"numberOfDaysCompleted: %d", numberOfDaysCompleted);
     //NSLog(@"personalBest: %d", personalBest);
@@ -160,10 +160,10 @@
     NSArray *quotes = [quotesDictionary objectForKey:@"Root"];
     
     if (!quotes) {
-        NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
+        NSLog(@"Error reading plist");
     }
     
-    int count = [quotes count];
+    int count = (int)[quotes count];
     
     if (count == 0) {
         count = 1;
